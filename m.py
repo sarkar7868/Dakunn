@@ -25,7 +25,7 @@ BAN_DURATION = timedelta(minutes=10)
 DAILY_ATTACK_LIMIT = 20  # Daily attack limit per user
 
 # List of user IDs exempted from cooldown, limits, and photo requirements
-EXEMPTED_USERS = [1944182800]
+EXEMPTED_USERS = [1944182800,1300081723]
 
 def reset_daily_counts():
     """Reset the daily attack counts and other data at 12 AM IST."""
